@@ -1,0 +1,1336 @@
+<!-- Header-->
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="dynamic.css">
+    <script src="dynamic.js"></script>
+    <style>
+        .dynamic-count {
+            /* background-image: url(trichy.jpg); */
+            /* background-color:rgb(222, 246, 250); */
+            background-color: black;
+        }
+
+        .counter-img {
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+
+    <!-- style for dynamic count----------------------- -->
+
+    <style>
+        img.lazy {
+            min-height: 1px
+        }
+    </style>
+
+
+
+
+
+
+    <!-- new style for notices -->
+    <style>
+        .bdy {
+            perspective: 500px;
+        }
+
+        .htow {
+            text-align: center;
+            padding: 16px;
+            margin: 0;
+        }
+
+        .pop-outin {
+            animation: 2s anim-popoutin ease infinite;
+        }
+
+        @keyframes anim-popoutin {
+            0% {
+                color: rgb(203, 6, 6);
+                transform: scale(0);
+                opacity: 0;
+                text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+            }
+
+            25% {
+                color: rgb(175, 106, 50);
+                transform: scale(2);
+                opacity: 1;
+                text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+            }
+
+            50% {
+                color: rgb(203, 6, 6);
+                transform: scale(1);
+                opacity: 1;
+                text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+            }
+
+            100% {
+                /* animate nothing to add pause at the end of animation */
+                transform: scale(1);
+                opacity: 1;
+                text-shadow: rgb(203, 6, 6);
+            }
+        }
+    </style>
+
+
+    <!-- link for colombo cards -->
+    <!-- to maintain last one in line -->
+    <!-- lepesa--------------------------- -->
+    <link rel='stylesheet' id='bootstrap-css' href='bootstrap.min.css' type='text/css' media='all' />
+
+
+    <!-- to maintain all ina line -->
+    <link rel='stylesheet' id='style-css' href='stylecol.css' type='text/css' media='all' />
+
+
+    <!-- ----------------------------------------------------------------- -->
+    <!-- style for cards from mix 2 -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="gallery.css">
+
+    <!-- style for new -->
+    <!-- style for new -->
+    <style>
+        .wrapper.two {
+            background-color: #1a1a1a;
+        }
+
+        .drop-mainss {
+            display: flex;
+            font-size: 5rem;
+            margin: 1.5rem;
+            justify-content: center;
+            font-family: "Russo One", sans-serif;
+        }
+
+        .rx {
+            opacity: 0;
+            animation: drops 0.4s linear forwards 0.3s infinite;
+            color: #99ffff;
+        }
+
+        .ox {
+            opacity: 0;
+            animation: drops 0.4s linear forwards 0.3s infinite;
+            color: #ccffff;
+        }
+
+        .px {
+            opacity: 0;
+            animation: drops 0.4s linear forwards 0.3s infinite;
+            color: #ffffff;
+        }
+
+        .sx {
+            opacity: 0;
+            animation: drops 0.4s linear forwards 0.3s infinite;
+            color: #de4040;
+        }
+
+        @keyframes drops {
+            0% {
+                transform: translateY(-40px);
+                opacity: 0;
+            }
+
+            50% {
+                transform: translateY(0px);
+                opacity: 1;
+            }
+
+            65% {
+                transform: translateY(-17px);
+                opacity: 1;
+            }
+
+            75% {
+                transform: translateY(-22px);
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+    </style>
+    <style>
+        .containers {
+            background-color: rgb(226, 247, 247);
+        }
+
+        .card {
+            box-shadow: 10px 10px 15px;
+            margin: 20px;
+        }
+
+        #carouselExample {
+            box-shadow: 10px 10px 10px;
+        }
+
+        .b {
+            padding-top: 20px;
+        }
+    </style>
+
+
+    <style>
+        .cont {
+            /* background-color: rgb(226, 247, 247); */
+            background-color: rgb(252, 255, 209);
+        }
+
+        /* .card {
+          box-shadow: 10px 10px 15px;
+          margin: 20px;
+        }
+    
+        #carouselExample {
+          box-shadow: 10px 10px 10px;
+        }
+    
+        .b {
+          padding-top: 20px;
+        } */
+    </style>
+
+    <style>
+        /* -------------------------------------------------------------------------- */
+        marquee>a {
+            font-size: 20px;
+            color: rgb(180, 126, 56);
+        }
+
+
+
+        /* .cardss {
+            background-color: rgb(137, 187, 187);
+            
+
+        } */
+
+        .card:hover {
+            cursor: pointer;
+        }
+    </style>
+
+    <!-- style for cards from mix -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link href="start.css" rel="stylesheet">
+    <script src="start.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+
+    <!-- Meta Tags -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <!-- Page Title -->
+    <title>
+        Home Page : NIT Trichy</title>
+
+
+
+
+
+
+
+    <!-- Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/css-plugin-collections.css" rel="stylesheet" />
+    <!-- CSS | menuzord megamenu skins -->
+    <link href="css/menuzord-megamenu.css" rel="stylesheet" />
+    <link id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-rounded-boxed.css" rel="stylesheet" />
+    <!-- CSS | Main style file -->
+    <link href="css/style-main.css" rel="stylesheet" type="text/css">
+    <!-- CSS | Preloader Styles -->
+    <link href="css/preloader.css" rel="stylesheet" type="text/css">
+    <!-- CSS | Custom Margin Padding Collection -->
+    <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
+
+    <!-- Revolution Slider 5.x CSS settings -->
+    <link href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css" />
+    <link href="js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css" />
+    <link href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css" />
+
+    <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
+
+    <!-- Dark Mode JS-->
+
+    <!--dark mode css end -->
+    <link href="css/nitt-style.css" rel="stylesheet" type="text/css">
+
+
+    <!-- CSS | Responsive media queries -->
+    <link href="css/responsive.css?v=1.1.9" rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+        window.mobileCheck = function () {
+            let check = false;
+            (function (a) {
+                if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true;
+            })(navigator.userAgent || navigator.vendor || window.opera);
+
+            return check;
+
+        };
+    </script>
+
+
+
+    <!-- external javascripts -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- JS | jquery plugin collection for this theme -->
+    <script src="js/jquery-plugin-collection.js"></script>
+    <!-- Revolution Slider 5.x SCRIPTS -->
+    <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+    <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+
+
+
+
+
+
+
+
+</head>
+
+
+<header id="header" class="header header-floating" role="banner">
+    <div class="header-top   sm-text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 top-section">
+                    <div class="widget text-white">
+                        <ul class="list-inline xs-text-center text-white">
+                            <li class="m-0 pl-5 pr-5"> <a href="#" target="_blank" class="text-white">Placements |</a> 
+                            
+                            </li>   Sitemap</a> |</li>
+                            <li class="m-0 pl-5 pr-5"><a href="#" title="" target="_blank"></i>Library</a></li>
+                            
+
+
+                            
+
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="col-md-2 pr-0 social-links">
+                    <div class="widget">
+                        <ul class="styled-icons icon-sm pull-right flip sm-pull-none sm-text-center">
+                            <li><a href="#" target="_blank" aria-label="Twitter"><i
+                                        class="fa fa-twitter text-white"></i></a></li>
+                            <li><a href="#" target="_blank" aria-label="Linkedin"><i
+                                        class="fa fa-linkedin text-white"></i></a></li>
+                            <li><a href="#" target="_blank" aria-label="Facebook"><i
+                                        class="fa fa-facebook text-white"></i></a></li>
+                        </ul>
+                    </div>
+                </div> -->
+                <div class="col-md-5 assist">
+                    <div class="widget">
+                        <ul class="list-inline sm-pull-none sm-text-center text-right text-white mb-sm-20">
+                            <!-- <li class="m-0 pl-5 va-m"><a href="#" class="text-white" target="_blank"><i
+                                        class="fa fa-envelope mr-5 text-white"></i>Webmail</a></li>
+
+                            <li class="m-0 pl-5 va-m"><a href="#" class="text-white" target="_blank"><i
+                                        class="fa fa-search pr-6" aria-hidden="true"></i>Search</a></li> -->
+
+                            <li class="m-0 pl-5 va-m"><a href="#" class="text-white" target="_blank"></i>Students</a>
+                            </li>
+
+
+                            <li class="m-0 pl-5 va-m"><a href="#" class="text-white" target="_blank"><b>|</b></a></li>
+
+                            <li class="m-0 pl-5 va-m"><a href="#" class="text-white" target="_blank"><i
+                                        class="fas fa-chalkboard-teacher"></i>Faculty</a></li>
+
+                            <li class="m-0 pl-5 va-m"><a href="#" class="text-white" target="_blank"><b>|</b></a></li>
+
+                            <li class="m-0 pl-5 va-m"><a href="#" class="text-white" target="_blank">Visitors</a></li>
+
+                            <li class="m-0 pl-5 va-m"><a href="#" class="text-white" target="_blank"><b>|</b></a></li>
+
+                            <li class="m-0 pl-5 va-m"><a href="#" class="text-white" target="_blank">Alumni</a></li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- ----------------------------------------------------------------------------------- -->
+
+    <!-- <div class="header-middle p-0  xs-text-center "
+        style="background-color: transparent !important; display: flex; flex-direction: row;"
+        > -->
+    <div class="header-middle p-0  xs-text-center "
+    style="background-color: rgb(149, 22, 22); display: flex; flex-direction: row;">
+
+        <div class="col-xs-12 col-sm-12 col-md-8" style="margin-left:45px ;">
+
+            <div class="logo-wrapper menuzord-brand switchable-logo pull-left flip mt-0 pt-0 ">
+
+
+                <a href="index.php" aria-label="NITT Logo"> <img class="logo-default "
+                        style="max-height: 100px; margin:15px" src="logo1.png" alt="NITT Logo"></a>
+                <div class="logo-animation-wrapper" style=" padding-top: 10px">
+
+                    <div>
+
+                        <b style="color: white;">National Institute Of Technology</b>
+                        <div style="height: 5px;"></div>
+                        <b style="color: white; margin-top: 25px; ">Tiruchirappalli</b>
+
+
+                    </div>
+                    <article>
+                        <class="text">
+
+                            </class>
+                    </article>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div style="padding-top: 25px; max-height: 50px;" class=" ">
+            <div class=" text-right">
+                <div style="border: none !important;" class=" widget no-border mr-10 mt-15 mb-10 m-0"
+                    data-placement="bottom" title="">
+
+                    <ul class="list">
+                        <li style="color: white;" class="lis font-30 text-white text-uppercase" id="admn-ch"
+                            class="important"><a href="#">राष्ट्रीय प्रौद्योगिकी संस्थान तिरुचिरापल्ली</a></li>
+                        <li style="color: white;" class="lis" id="admn-chh" class="important"><a href="#">தேசிய
+                                தொழில்நுட்பக் கழகம் திருச்சிராப்பள்ளி</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="wid"></div>
+    <!-- menuzord-------------------------------------------------------------------- -->
+    <div class="ar-nav-cent header-nav navbar-sticky navbar-sticky-animated ar-nitt-menu two_nav">
+        <div class="header-nav-wrapper">
+            <div class="container p-0">
+                <nav style="background: none !important;" id="menuzord-right" class="menuzord default no-bg"
+                    role="navigation">
+
+                    <ul class="menuzord-menu ar-fafa" style="float:left !important">
+                        <li class=""><a href="#" class="ar-fahome" aria-label="Home"><i class="fa fa-home"></i></a></li>
+                        <li class="academics"> <a href="#">About Us</a>
+
+                            </ui>
+                        </li>
+                        <li class="indicator"> <a href="#">Administration</a>
+
+                        </li>
+                        <li class="for-students"> <a href="#">Academics</a>
+
+                        </li>
+
+
+                        <li class="for-faculty"> <a href="#">Admission</a>
+
+                        </li>
+                        <li class="research"> <a href="#">Research</a>
+
+                        </li>
+
+
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="kk kkgradient dn"></div>
+    </div>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+</header>
+
+<body>
+    <div class="parallax container-fluid">
+
+    </div>
+
+    <div class="mid">
+        <!-- <p>Explore Now</p> -->
+        <marquee class="marr" style="margin-bottom: 0px;">
+            <!-- commented part is previous marquee-------------------- -->
+            <!-- color: rgb(203, 6, 6); -->
+            <!-- <a style="color: white;" onMouseOver="this.style.color='rgb(180, 126, 56)'"
+                onMouseOut="this.style.color=' rgb(203, 6, 6)'" class="as"
+                href="/home/rc/ipr/IPR_NIPAM_2022_Certificate.pdf" target="_new8"><b>Certificate of Appreciation - NIPAM
+                    2022....</b></a> -->
+            <a style="color: white;" href="#" onMouseOver="this.style.color='rgb(180, 126, 56)'"
+                onMouseOut="this.style.color=' rgb(255, 255, 255)'" class="as"
+                href="https://www.nitt.edu/home/academics/nirf/" target="_new12"><b>NIRF 2022 - First among NITs, Eighth in
+                    Engineering.... </b></a>
+            <a style="color: white;" onMouseOver="this.style.color='rgb(180, 126, 56)'"
+                onMouseOut="this.style.color=' rgb(255, 255, 255)'" class="as"
+                href="/home/rc/ipr/IPR_NIPAM_2022_Certificate.pdf" target="_new8"><b>Certificate of Appreciation - NIPAM
+                    2022....</b></a>
+            <a style="color:white;" onMouseOver="this.style.color='rgb(180, 126, 56)'"
+                onMouseOut="this.style.color=' rgb(255, 255, 255)'" class="as"
+                href="/home/students/events/covid19/MOOCs.pdf" target="_new108"><b>NIT-T appointed as the National MOOCs
+                    Coordinator for offering Engineering Courses at UG & PG level by MHRD, GOI....</b></a>
+            <a style="color:white;" onMouseOver="this.style.color='rgb(180, 126, 56)'"
+                onMouseOut="this.style.color=' rgb(255, 255, 255)'" class="as" href="/home/academics/pmrf/PMRF-2021.pdf"
+                target="_new110"><b>NIT, Tiruchirapalli gets Prime Minister's Research
+                    Fellowship (PMRF) Scheme....</b> </a>
+            <a style="color:white;" onMouseOver="this.style.color='rgb(180, 126, 56)'"
+                onMouseOut="this.style.color=' rgb(255, 255, 255)'" class="as" href="#"><b> NIT-T Ambulance 9486001162...
+                    NIT-T
+                    Hospital 91-431-2503860... NIT-T
+                    Security Office 9486001168
+                    / 91-431-2503900...</b></a>
+            <a style="color:white;" onMouseOver="this.style.color='rgb(180, 126, 56)'"
+                onMouseOut="this.style.color=' rgb(255, 255, 255)'" class="as" href="/home/students/"><b>Anti-Ragging
+                    Helpline
+                    Mobile Number: 9486001180 and email:
+                    antiragging@nitt.edu....</b></a>
+            <a style="color: white;" onMouseOver="this.style.color='rgb(180, 126, 56)'"
+                onMouseOut="this.style.color=' rgb(255, 255, 255)'" class="as" href="/home/righttoinfoact/ICC-2022.pdf"
+                target="_new"><b>Internal Complaints committee to address Sexual
+                    Harassment of Women at Workplace (Prevention, Prohibition and Redressal)....</b></a>
+    
+            <a style="color:white;" onMouseOver="this.style.color='rgb(180, 126, 56)'"
+                onMouseOut="this.style.color=' rgb(255, 255, 255)'" class="as"><b>Women Sexual Harassment
+                    Helpline 9486001150, email:
+                    womencell@nitt.edu.... Students Grievance Helpline Mobile Number: 9486001198 and email:
+                    studentsgrievance@nitt.edu....</b></a>
+        </marquee>
+    
+    </div>
+
+
+
+    <!-- -------------------------------------------------------------------------------------------- -->
+
+
+    <div style="background-color: rgb(252, 255, 209) ;">
+        <div class="bdy" style="background-color: rgb(252, 255, 209) ;margin-bottom: 40px;" >
+            <div class='line'>
+                <h2 class='pop-outin htow' style="color: rgb(203, 6, 6); font-size: 200px; font-size: 1.5rem;">EVENTS</h2>
+            </div>
+    
+        </div>
+        <div class="container "  style="background-color: rgb(252, 255, 209) ;">
+            <div class="row">
+    
+                <div class="col-md-3 divv">
+    
+                    <a href="#">
+                        <img class="events-img" src="rr.jpg" style="margin-bottom: 30px; ">
+                        <div class="break" style="height: 3px; background-color: black;"></div>
+                        <div style="text-align:start; word-wrap: break-word; width: 200px; border: #010707; ">
+                            <h2 style="min-height: 80px;">Institute Day April 28th</h2>
+                            <h4><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime omnis minus distinctio,
+                                    id
+                                    cupiditate
+    
+                                </b></h4>
+                        </div>
+                    </a>
+    
+                </div>
+    
+    
+                <div class="col-md-3 divv">
+                    <a href="#"> <img class="events-img" src="intern.jpeg" style="margin-bottom: 20px; ">
+                        <div class="break" style="height: 3px; background-color: black;"></div>
+                        <div style="text-align:start; word-wrap: break-word; width: 200px; border: #010707;">
+                            <h2 style="min-height: 80px;">Summer Internship</h2>
+                            <h4><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime omnis minus distinctio,
+                                    id
+                                    cupiditate
+    
+                                </b></h4>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="col-md-3 divv">
+                    <a href="#">
+                        <img class="events-img" src="convo1.jpg" style="margin-bottom: 20px; ">
+                        <div class="break" style="height: 3px; background-color: black;">
+
+                        </div>
+                        <div style="text-align:start; word-wrap: break-word; width: 200px; border: #010707;">
+                            <h2 style="min-height: 80px;">18th Convocation</h2>
+                            <h4><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime omnis minus distinctio,
+                                    id
+                                    cupiditate
+    
+                                </b></h4>
+                        </div>
+    
+                    </a>
+                </div>
+    
+                <div class="col-md-3 divv">
+                    <a href="#">
+                        <img class="events-img" src="sports.jpeg" style="margin-bottom: 20px;">
+                        <div class="break" style="height: 3px; background-color: black;"></div>
+                        <div style="text-align:start; word-wrap: break-word; width: 200px; border: #010707;">
+                            <h2 style="min-height: 80px;">Sportsfete 2023</h2>
+                            <h4><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime omnis minus distinctio,
+                                    id
+                                    cupiditate
+    
+                                </b></h4>
+                        </div>
+                    </a>
+                </div>
+    
+    
+    
+            </div>
+    
+        </div>
+    
+
+    </div>
+    
+
+
+
+
+    <!-- ------------------------------------------------------------------------------------- -->
+
+
+
+    </div>
+    <br>
+    <!-- Academics-------------------------------------------------------- -->
+    <div class="container-fluid">
+        <h1 style="text-align: center; ">Academics</h1>
+        <h4 style="text-align: center; margin: 30px;"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at
+            sapiente suscipit, earum nulla assumenda mollitia minima aspernatur ipsa atque, quis dolorum nihil corrupti
+            odio temporibus sunt impedit, pariatur tempora!</b></h4>
+    </div>
+    <div class="slide-container swiper">
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/11.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">CSE</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                        <button class="button">View More</button>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/2.jpeg" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">ECE</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                        <button class="button">View More</button>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/3.jpeg" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">EEE</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                        <button class="button">View More</button>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/4.jpeg" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">MECH</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                        <button class="button">View More</button>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/5.jpeg" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">CIVIL</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                        <button class="button">View More</button>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/6.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">ICE</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                        <button class="button">View More</button>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/7.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">CHEM</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                        <button class="button">View More</button>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/8.jpeg" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">META</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                        <button class="button">View More</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <br>
+    <!-- ----------------------------------------------------------------------------- -->
+    <!-- cards again -->
+    <!-- <Research-------------------------------------h -->
+
+     <div class="container-fluid" style=" background-color: rgb(252, 255, 209);">
+        <h1 style="text-align: center; ">Research</h1>
+        <h4 style="text-align: center; margin: 30px;"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at
+            sapiente suscipit, earum nulla assumenda mollitia minima aspernatur ipsa atque, quis dolorum nihil corrupti
+            odio temporibus sunt impedit, pariatur tempora!</b></h4>
+    </div>
+
+    <!-- <div class="container-fluid" style="background-color:rgb(252, 255, 209);">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="mtech.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">MTech Admission</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetsres aut voluptatem!</p>
+                        <a href="#" class="btn " style="background-color: rgb(180, 126, 56);">Enter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="mtech.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">MTech Admission</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetsres aut voluptatem!</p>
+                        <a href="#" class="btn " style="background-color: rgb(180, 126, 56);">Enter</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="mbaa.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">MBA Admission</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetsres aut voluptatem!</p>
+                                <a href="#" class="btn " style="background-color: rgb(180, 126, 56);">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="mbaa.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">MBA Admission</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetsres aut voluptatem!</p>
+                                <a href="#" class="btn " style="background-color: rgb(180, 126, 56) ;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="btech.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Btech Admission</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetsres aut voluptatem!</p>
+                                <a href="#" class="btn " style="background-color: rgb(180, 126, 56) ;"
+                                    style="justify-content: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="btech.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Btech Admission</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetsres aut voluptatem!</p>
+                                <a href="#" class="btn " style="background-color: rgb(180, 126, 56) ;"
+                                    style="justify-content: center;">Enter</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                 
+            </div>
+
+        </div>
+
+
+    </div> -->
+        <!-- cards from mix 2 -->
+        <div class="container-fluid cont" style="padding-bottom: 50px;">
+            <div class="row x">
+    
+    
+    
+    
+                <div class="col-md-6">
+                    <div class="card">
+                        <a href="https://www.google.com"><img src="robot.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body" style="background-color: rgb(234, 226, 234);">
+                            <h5 class="card-title">Robotics</h5>
+                            <p class="card-text">desse text to build on the card title and make up the bulk of the card's
+                                content. </p>
+                            <a href="#" class="btn " style="background-color:rgb(175, 106, 50) ;">Enter</a>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="ai.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: rgb(234, 226, 234);">
+                            <h5 class="card-title">Artificial intelligence</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam temporibus
+                            </p>
+                            <a href="#" class="btn" style="background-color:rgb(175, 106, 50) ;">Enter</a>
+                        </div>
+                    </div>
+                </div>
+    
+    
+    
+    
+    
+            </div>
+    
+    
+            <div class="row b">
+                <div class="container cont">
+                    <div class="row">
+    
+    
+                        <div class="col-md-4 a">
+                            <div class="card">
+                                <a href="https://www.google.com"><img src="neural.jpeg" class="card-img-top" alt="..."></a>
+                                <div class="card-body" style="background-color: rgb(234, 226, 234);">
+                                    <h5 class="card-title">Neural Networks</h5>
+                                    <p class="card-text">Some quick ele and make up the bard's content.</p>
+                                    <a href="#" class="btn" style="background-color:rgb(175, 106, 50) ;">Enter</a>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                        <div class="col-md-4 ">
+                            <div class="card">
+                                <img src="iott.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body" style="background-color: rgb(234, 226, 234);">
+                                    <h5 class="card-title">IOT</h5>
+                                    <p class="card-text">Some quick ele and make up the bard's content. </p>
+                                    <a href="#" class="btn" style="background-color:rgb(175, 106, 50) ;">Enter</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="mines.jpg" class="card-img-top" alt="...">
+                                <div class="card-body" style="background-color: rgb(234, 234, 226);" s>
+                                    <h5 class="card-title">Data Mining</h5>
+                                    <p class="card-text">Some quick ele and make up the bard's content.</p>
+                                    <a href="#" class="btn" style="background-color:rgb(175, 106, 50) ;">Enter</a>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                    </div>
+                </div>
+    
+            </div>
+    
+    
+        </div>
+    <br>
+    <!-- ----------------------------------------------------- -->
+    <!-- gallery starts -->
+    <div class="container-fluid" style="background-color: rgb(255, 255, 255);">
+        <h1 style="text-align: center; ">Gallery</h1>
+        <h4 style="text-align: center; margin: 30px;"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at
+            sapiente suscipit, earum nulla assumenda mollitia minima aspernatur ipsa atque, quis dolorum nihil corrupti
+            odio temporibus sunt impedit, pariatur tempora!</b></h4>
+    </div>
+    <html>
+    <!-- <body> -->
+    <div class="gall">
+        <div class="containerss">
+            <img class="imgss" src="orion.jpeg" alt="">
+            <img class="imgss" src="lib.jpeg" alt="">
+            <img class="imgss" src="capstone.jpg" alt="">
+            <img class="imgss" src="update.jpg" alt="">
+            <img class="imgss" src="lib.jpeg" alt="">
+            <img class="imgss" src="capstone.jpg" alt="">
+
+
+        </div>
+
+    </div>
+    <!-- </body> -->
+
+    </html>
+    <br>
+    <!-- colombo cards------------------------------------------------------------------ -->
+    <!-- <div class="container-fluid" style="background-color: rgb(223, 248, 249);">
+        <h1 style="text-align: center; ">Courses</h1>
+        <h2 style="text-align: center; margin: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at
+            sapiente suscipit, earum nulla assumenda mollitia minima aspernatur ipsa atque, quis dolorum nihil corrupti
+            odio temporibus sunt impedit, pariatur tempora!</h2>
+    </div> -->
+    <!-- colombo cards -->
+    <!-- <div class="u_row">
+        <div class="vc_row wpb_row vc_row-fluid vc_custom_1517811134435">
+            <div class="wpb_column vc_column_container vc_col-sm-12">
+                <div class="vc_column-inner">
+                    <div class="wpb_wrapper">
+                        <div class="event-listing un-grid-listing un-post-grid un-post-grid-2420 wpb_bottom-to-top wpb_animate_when_almost_visible"
+                            data-delay=0.2>
+                            <div class="grid-listing-wrap">
+                                <div class="grid-listing no-overlay-bottom">
+                                    <div class="grid-item grid-header">
+                                        <div class="grid-item-inner main-color-1-bg dark-div"
+                                            style="background-color:#010707">
+                                            <div class="grid-item-content event-item">
+                                                <h1>Featured Courses</h1>
+                                                <p>Explore new courses offered by University
+                                                    of Colombo.</p> <a class="btn btn-default" href="#">ALL
+                                                    COURSES <i class="fa fa-angle-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid-item grid-post-id-24268">
+                                        <div class="grid-item-inner">
+                                            <div class="grid-item-content event-item dark-div">
+                                                <div class="event-thumbnail">
+                                                    <a href="#" title="Master of Business Studies (MBS) 2023">
+                                                        <img style="height: 400px;" src="c1.jpg" width="400"
+                                                            height="487" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="event-overlay">
+                                                    <a class="overlay-top" href="#" title="">
+                                                        <div class="tess">Msc</div>
+                                                    </a>
+                                                    <div class="overlay-bottom">
+                                                        <div class="course-exceprt"></div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                   
+                                    <div class="grid-item grid-post-id-64589">
+                                        <div class="grid-item-inner">
+                                            <div class="grid-item-content event-item dark-div">
+                                                <div class="event-thumbnail">
+                                                    <a href="#" title="cse" alt="cse">
+                                                        <img style="height: 400px;" src="c2.jpeg" width="400"
+                                                            height="487" title="cse" alt="cse">
+                                                    </a>
+                                                </div>
+                                                <div class="event-overlay">
+                                                    <a class="overlay-top" href="#">
+                                                        <div class="tess">Cse</div>
+                                                    </a>
+                                                    <div class="overlay-bottom">
+                                                        <div class="course-exceprt"></div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                          
+                                        </div>
+                                    </div>
+                                 
+                                    <div class="grid-item grid-post-id-65534">
+                                        <div class="grid-item-inner">
+                                            <div class="grid-item-content event-item dark-div">
+                                                <div class="event-thumbnail">
+                                                    <a href="#"
+                                                        title="Call for Applications for Advanced Certificate ,Diploma and Higher Diploma Programs 2023 &#8211; NILIS">
+                                                        <img style="height: 400px;" src="ece.png" width="400"
+                                                            height="487" title="ece" alt="ece">
+                                                    </a>
+                                                </div>
+                                                <div class="event-overlay">
+                                                    <a class="overlay-top" href="#" title="">
+                                                        <div class="tess">ECE</div>
+                                                    </a>
+                                                    <div class="overlay-bottom">
+                                                        <div class="course-exceprt">
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                   
+                                    <div class="grid-item grid-post-id-65343">
+                                        <div class="grid-item-inner">
+                                            <div class="grid-item-content event-item dark-div">
+                                                <div class="event-thumbnail">
+                                                    <a href="#"
+                                                        title="Certificate in Teaching in Higher Education (CTHE) 2023">
+                                                        <img style="height: 400px;" src="eee.jpeg" width="400"
+                                                            height="487" title="eee" alt="eee">
+                                                    </a>
+                                                </div>
+                                                <div class="event-overlay">
+                                                    <a class="overlay-top" href="#">
+                                                        <div class="tess">EEE</div>
+                                                    </a>
+                                                    <div class="overlay-bottom">
+                                                        <div class="course-exceprt"></div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <style scoped>
+                            @media (min-width: 992px) {
+                                .un-post-grid-2420 .grid-item {
+                                    width: 20%;
+                                }
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- ----------------------------dynamic-------------------- -->
+    <!-- <div class="container" style="max-height: 800px;">
+        <div class="row" style="display: flex; flex-direction: row; ">
+            <div style="display: flex; flex-direction: column;" class="col-md-8">
+                <div style="display: flex; flex-direction: row;">
+                    <img class="imgg" style="margin: 100px;" data-lazy="faculty.jpeg">
+                    
+                    <img class="imgg" style="margin: 100px;" data-lazy="students.jpeg">
+                    
+                </div>
+
+                <div style="display: flex; flex-direction: row;">
+                    <img class="imggs" style="margin: 100px;" datas="download.jpeg">
+                    <img class="imggs" style="margin: 100px;" datas="green.jpg">
+                </div>
+            </div>
+            <div class="col-md-4 " style="margin: 150px;" >
+                <h2  class="text" >Faculty 300+</h2 >
+                <h2 class="text">Students 5000+</h2>
+                <h2 class="text">staff 500+</h2>
+                <h2  class="tex">Campus 800+ Acres  </h2>
+            </div>
+
+        </div>
+
+    </div> -->
+
+
+
+
+
+        <!-- footer----------------------------------------------------------------- -->
+    <br>
+
+    <footer class="text-center footer text-center">
+        <div class="container p-4">
+
+            <div class="row  text-md-start mt-5">
+
+                <!--Logo Start-->
+                <div class="col-md-4 ">
+                    <h4 class="pb-3" style="color: white;">NIT Trichy<span class="Analyst"></span></h4>
+
+                    <p class="copy-right"> © WebTeam NIT Trichy
+                        National Institute of Technology, Tiruchirappalli</p>
+                </div>
+                <!--Logo end-->
+
+                <!-- social media handles---------- -->
+
+
+                <!--Solutions Start-->
+
+
+
+
+
+                <div class="col-md-3">
+                    <h5 class="pb-3" style="color: white;">Academics </h5>
+                    <ul class="list-style ps-0 ">
+                        <li class="pb-3">Academic Programmes</li>
+                        <li class="pb-3">Departments</li>
+                        <li class="pb-3">Faculty</li>
+                        <li class="pb-3">Rules and Regulations</li>
+                        <li class="pb-3">Scholarships</li>
+                        <li class="pb-3">
+                            Patent Prosecution
+                        </li>
+                    </ul>
+                </div>
+                <!--Solutions end-->
+
+
+
+
+
+                <!--Quick links Start-->
+                <div class="col-md-3 ">
+                    <h5 class="pb-3" style="color: white;"> Admissions</h5>
+                    <ul class="list-style ps-0">
+                        <li class="pb-4">B.Tech / B.Arch.</li>
+                        <li class="pb-4">M.Tech / M.Arch./li>
+                        <li class="pb-4">M.Sc</li>
+                    </ul>
+                    <h5 class="pb-0" style="color: white;"> Reach Us at</h5>
+                    <div class="list-style ps-0" style="display: flex; flex-direction: row;">
+                        <div class="m-0 pl-10 pr-5"><a href="#" target="_blank" aria-label="Twitter"><i
+                                    class="fa fa-twitter text-white"></i></a></div>
+
+                        <div class="m-0 pl-5 pr-5"><a href="#" target="_blank" aria-label="Linkedin"><i
+                                    class="fa fa-linkedin text-white"></i></a></div>
+
+                        <div class="m-0 pl-5 pr-5"><a href="#" target="_blank" aria-label="Facebook"><i
+                                    class="fa fa-facebook text-white"></i></a></div>
+                    </div>
+
+                </div>
+                <!--QUick links end-->
+
+
+
+
+
+
+                <!--Other Start-->
+                <div class="col-md-2 ">
+                    <h4 class="pb-3" style="color: white;">Other Links </h4>
+                    <ul class="list-style ps-0">
+                        <li class="pb-3">Tenders and Notices</li>
+                        <li class="pb-3">Job Opportunities</li>
+                        <li class="pb-3">RTI</li>
+                        <li class="pb-3">Alumni</li>
+                        <li class="pb-3">Sitemap</li>
+
+                    </ul>
+                </div>
+
+
+                <!--Other end-->
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script type="text/javascript ">
+        var admnW = $("#admn-chh ").map(function() {
+    return $(this).width();
+    }).get();
+   
+    $("#admn-ch ").width(admnW);
+   
+    $("#admn-chh ").remove();
+   
+    setTimeout(function(){
+    $("#admn-ch a ").typed({strings: [
+    
+    "राष्ट्रीय प्रौद्योगिकी संस्थान तिरुचिरापल्ली ",
+    "தேசிய தொழில்நுட்பக் கழகம் திருச்சிராப்பள்ளி"
+    ],
+    typeSpeed: 0,
+    backDelay: 1000,
+    loop: true,
+    showCursor: false,
+    cursorChar: '',
+    autoInsertCss: false,
+    loopCount: Infinity,
+    callback: function(){}
+    });
+    },2000);
+</script>
+
+    <!-- script for gallery -->
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+
+</body>

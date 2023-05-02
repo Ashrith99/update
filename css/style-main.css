@@ -1,0 +1,400 @@
+@charset "utf-8";
+
+
+@import "../css/font-awesome.min.css";
+@import "../css/font-awesome-animation.min.css";
+@import "../css/pe-icon-7-stroke.css";
+@import "../css/elegant-icons.css";
+/* @import "../css/icomoon.css"; */
+
+/* @import "../css/ionicons.css"; */
+
+/* @import "../css/stroke-gap-icons.css"; */
+
+@import "../css/utility-classes.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,300,400,500,700,900');
+@font-face {
+    font-family: 'Titillium Web';
+    src: url(../fonts/TitilliumWeb-Regular.ttf);
+}
+
+/*
+ * Typography.less
+ * -----------------------------------------------
+*/
+
+::selection {
+    background: #333333;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #333333;
+    /* Firefox */
+    color: #fff;
+    text-shadow: none;
+}
+
+::-webkit-selection {
+    background: #333333;
+    /* Safari */
+    color: #fff;
+    text-shadow: none;
+}
+
+:active,
+:focus {
+    outline: none !important;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    line-height: 1.7;
+    color: #777777;
+    font-size: 14px;
+    /* font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif; */
+    font-family: 'Titillium Web', sans-serif, Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color: #fff;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: white;
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+iframe {
+    border: none !important;
+}
+
+
+
+/* -------- Body Text ---------- */
+
+p,
+pre,
+ul,
+ol,
+dl,
+dd,
+blockquote,
+address,
+table,
+fieldset,
+form {
+    margin-bottom: 10px;
+}
+
+/* -------- Custom Font Family ---------- */
+
+
+
+
+
+
+/*
+ * common.less
+ * -----------------------------------------------
+*/
+
+/* -------- Basic Structure ---------- */
+
+html {
+    font-size: 100%;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 85%;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+html,
+html a {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*
+ * header.less
+ * -----------------------------------------------
+*/
+
+.navbar-scrolltofixed {
+    z-index: 999 !important;
+}
+
+.header-top {
+    background-color: rgba(234, 168, 77, 0.968);
+    padding: 0;
+    height: 30px;
+}
+
+.header-top .widget {
+    
+    line-height: 2.5rem;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+.header-top .widget ul li {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.header-top .widget ul li:first-child {
+    padding-left: 0;
+}
+
+.header-top .widget .styled-icons {
+    line-height: 1;
+}
+
+.header-top.style-bordered {
+    border-bottom: 1px solid #ccc;
+}
+
+.header-top.style-bordered .widget ul.list-bordered li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-right: 1px solid #ccc;
+}
+
+@media only screen and (max-width: 1000px) {
+    .header-top.style-bordered .widget ul.list-bordered li {
+        border: none;
+    }
+}
+
+.header-top.style-bordered .widget ul.list-bordered li:first-child {
+    border-left: 1px solid #ccc;
+}
+
+@media only screen and (max-width: 1000px) {
+    .header-top.style-bordered .widget ul.list-bordered li:first-child {
+        border: none;
+    }
+}
+
+.header-top.style-bordered .widget ul.list-bordered.navbar-nav li {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .header-top .language-switcher {
+        background-color: #ddd;
+    }
+}
+
+.header-top .language-switcher li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menuzord-brand img {
+    max-height: 38px;
+}
+
+@media only screen and (max-width: 767px) {
+    .menuzord-brand img {
+        max-height: 30px;
+    }
+}
+
+    
+
+/* Transparent Header */
+
+
+.header.header-floating {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1111;
+    /* -------- Header Transparent Dark ---------- */
+    /* -------- Header Transparent Dark ---------- */
+    /* -------- Header Transparent White ---------- */
+    /* -------- Header Transparent Dark ---------- */
+}
+
+
+
+.header.header-floating .header-top .widget a,
+.header.header-floating .header-mid .widget a {
+    color: #fff;
+}
+
+
+/* imp for non movement of marqueee------------------------------------- */
+
+.widget.no-border ul li {
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.widget ul.list li::before {
+    display: none;
+}
+
+.widget.dark ul.list li::before {
+    display: none;
+}
+
+
+/* -------- Headings ---------- */
+
+h1,
+.h1 {
+    font-size: 3.4rem;
+}
+
+h2,
+.h2 {
+    font-size: 2rem;
+}
+
+h3,
+.h3 {
+    font-size: 24px;
+}
+
+h4,
+.h4 {
+    font-size: 18px;
+}
+
+h5,
+.h5 {
+    font-size: 14px;
+}
+
+h6,
+.h6 {
+    font-size: 12px;
+}
+
+h1,
+h2,
+.h1,
+.h2 {
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: #333333;
+}
+
+h1 small,
+h2 small,
+.h1 small,
+.h2 small,
+h1 .small,
+h2 .small,
+.h1 .small,
+.h2 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: #333333;
+}
+
+h1 a,
+h2 a,
+.h1 a,
+.h2 a {
+    color: #333333;
+}
+
+h3,
+h4,
+h5,
+h6,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333333;
+}
+
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+.h3 .small,
+.h4 .small,
+.h5 .small,
+.h6 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: #333333;
+}
+
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+.h3 a,
+.h4 a,
+.h5 a,
+.h6 a {
+    color: #333333;
+}

@@ -1,0 +1,40 @@
+
+.gall {
+    padding-top: 0px;
+    width: 100%;
+    height: 50vh;
+    background-color:rgb(121, 56, 3);
+    
+    display:grid;
+    place-items:center;
+  }
+  .imgss {
+    width: 30%;
+    height: 100%;
+    object-fit:cover;
+    
+    -webkit-box-reflect:below 2px linear-gradient(transparent, transparent, #0004);
+    
+    transform-origin:center;
+    transform:perspective(800px) rotateY(25deg);
+    transition:0.5s;
+  }
+  .containerss {
+    max-width:600px;
+    max-height:350px;
+    
+    
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    
+  }
+  .containerss:hover .imgss {
+    opacity:0.3;
+  }
+  .containerss .imgss:hover {
+    transform:perspective(800px)       rotateY(0deg);
+    opacity:1;
+  }
